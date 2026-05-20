@@ -1,8 +1,28 @@
-.React {
-    text-align: left;
-    width: 30%;
+logo {
+  float:left;
+  width:30%;
+  text-align:left;
 }
 
-.Home {
-    text-align: right;
+logo img {
+  width:100%; 
+  max-width:150px;
+}
+
+nav {
+  float:right;
+  width:65%;
+  text-align: right;
+}
+
+nav a {
+  color: #fc0;
+  text-decoration:none;
+  padding:10px;
+}
+
+nav a:hover {
+  color: #000;
+  /*text-decoration:underline;*/
+  font-weight:Bold;
 }

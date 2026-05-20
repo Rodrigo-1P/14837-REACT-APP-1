@@ -1,23 +1,17 @@
-import reactImg from './assets/react.svg'
 import './Header.css'
+import reactImg from './assets/react.svg'
 
-function Message(){
+function Header(){
     return(
-        <>
-            <div className='React'>
-                <img src={reactImg} className="base" width="50" height="50" alt="" />
-            </div>
-
-            <div className='Home'>
-                <a href="">HOME</a>
-
-
-
-                <a href="">CONTACTOS</a>
-            </div>
-        </>
+        <div>
+            <logo><img src={reactImg} alt="React Img" /></logo>
+            <nav>
+                <a href="/home">HOME</a>
+                <a href="/contactos">CONTACTOS</a>
+            </nav>
+        </div>
     )
 }
 
 
-export default Message
+export default Header
