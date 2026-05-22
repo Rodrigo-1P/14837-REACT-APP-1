@@ -11,9 +11,6 @@ import Footer from './Footer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Header />
-    <Message></Message>
     <App></App>
-    <Footer />
   </StrictMode>,
 )
