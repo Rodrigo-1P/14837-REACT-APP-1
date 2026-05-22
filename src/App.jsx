@@ -4,7 +4,10 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 
-import Message from './Message.jsx'
+import Mensagem from './Mensagem.jsx'
+import Alerta from './Alerta.jsx'
+import Contador from './Contador.jsx'
+import Formulario from './Formulario.jsx'
 
 function App() {
   return (
@@ -20,7 +23,19 @@ function App() {
       >
         Clica-me!
       </button>
-      <Message mytext="Esta é a minha mensagem!" />
+
+      <Contador/>
+
+      <h1 className='text-center'>Componentes e Props</h1>
+
+      <Mensagem mytext="Bem vindo à tua primeira aplicação React!" />
+      <Mensagem mytext="Os componentes permitem reutilizar código!" />
+
+      <Alerta tipo="success" texto="O meu novo alerta(success)" />
+      <Alerta tipo="danger" texto="O meu novo alerta(danger)" />
+      <Alerta tipo="warning" texto="O meu novo alerta(warning)" />
+
+      <Formulario />
     </div>
   );
 }
