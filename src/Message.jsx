@@ -1,10 +1,10 @@
-function Message(){
-    return(
-        <div>
+
+function Message() {
+    return (
+       <div>
             a minha mensagem
-        </div>
+       </div> 
     )
 }
-
 
 export default Message
